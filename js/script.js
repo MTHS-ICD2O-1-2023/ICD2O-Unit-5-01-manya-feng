@@ -24,6 +24,6 @@ function checkNumber() {
   if (userNumber != randomNumber) {
     //output
     document.getElementById("result").innerHTML =
-      "You have guessed the wrong number"
+      "You have guessed the wrong number !"
   }
 }
