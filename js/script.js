@@ -22,8 +22,6 @@ function myButtonClicked() {
       "You have guessed the correct number!"
   }
 
-  //block of code to be executed if condition is true
-
   if (numberGuessed != randomNumber) {
     //output
     document.getElementById("answer").innerHTML =
