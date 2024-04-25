@@ -27,7 +27,7 @@ function myButtonClicked() {
   if (numberGuessed != randomNumber) {
     //output
     document.getElementById("answer").innerHTML =
-      "You have guessed the wrong number !" +
-      'The correct answer is ' + randomNumber
+      "You have guessed the wrong number ! " +
+      'The correct answer is ' + randomNumber + '.'
   }
 }
