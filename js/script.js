@@ -4,6 +4,8 @@
 // Created on: Apr 2024
 // This file contains the JS functions for index.html
 
+"use strict"
+
 const randomNumber = Math.floor(Math.random() * 6) + 1
 console.log(randomNumber)
 
@@ -11,18 +13,20 @@ console.log(randomNumber)
  * This function checks if the user has selected the random number from above
  */
 
-function checkNumber() {
+function randomnumbergenerator() {
   // input
-  const userNumber = parseInt(document.getElementById("user-number").value)
+  const numberGuessed = parseInt(document.getElementById("guessed-number").value)
 
   // process
-  if (userNumber == randomNumber) {
+  if (numberGuessed == randomNumber) {
     //output
     document.getElementById("answer").innerHTML =
       "You have guessed the correct number!"
   }
 
-  if (userNumber != randomNumber) {
+  //block of code to be execued if condition is ture
+
+  if (numberGuessed != randomNumber) {
     //output
     document.getElementById("answer").innerHTML =
       "You have guessed the wrong number !"
