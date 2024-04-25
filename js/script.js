@@ -5,6 +5,7 @@
 // This file contains the JS functions for index.html
 
 const randomNumber = Math.floor(Math.random() * 6) + 1
+console.log(randomNumber)
 
 /**
  * This function checks if the user has selected the random number from above
