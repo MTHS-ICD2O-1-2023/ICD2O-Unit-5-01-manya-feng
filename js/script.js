@@ -28,6 +28,6 @@ function myButtonClicked() {
     //output
     document.getElementById("answer").innerHTML =
       "You have guessed the wrong number !" +
-      'The correct answer is ' + randomNumber.
+      'The correct answer is ' + randomNumber
   }
 }
