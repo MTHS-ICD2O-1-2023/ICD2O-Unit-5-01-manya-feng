@@ -22,7 +22,7 @@ function myButtonClicked() {
       "You have guessed the correct number!"
   }
 
-  //block of code to be execued if condition is ture
+  //block of code to be executed if condition is true
 
   if (numberGuessed != randomNumber) {
     //output
