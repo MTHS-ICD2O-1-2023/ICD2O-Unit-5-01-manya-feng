@@ -4,16 +4,13 @@
 // Created on: Apr 2024
 // This file contains the JS functions for index.html
 
-"use strict"
-
 const randomNumber = Math.floor(Math.random() * 6) + 1
-console.log(randomNumber)
 
 /**
  * This function checks if the user has selected the random number from above
  */
 
-function randomnumbergenerator() {
+function myButtonClicked() {
   // input
   const numberGuessed = parseInt(document.getElementById("guessed-number").value)
 
